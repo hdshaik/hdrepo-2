@@ -1,0 +1,38 @@
+Online Terminal :
+https://www.masswerk.at/jsuix/
+
+-----------------------------------------------------------------------------------
+rm	-	to remove only empty directory
+rmdir	-	to remove both files and directories. even directory is non-empty.
+-----------------------------------------------------------------------------------
+LINUX FILE SYSTEM :
+
+1. NORMAL USER
+2. SUPER USER OR ROOT USER OR ADMIN USER
+
+Linux FILE SYSTEM WORKS AS TREE-LIKE STRUCTURE.
+/ - represents root account
+$ - NORMAL USER-represents shell, ready to read the command.
+# - ROOT USER-represents shell
+
+		 /-ROOT DIRECTORY
+			|
+			|
+------------------------------------------------------------
+ |	  |	 |	 |	 |	 |	 |	 |
+bin	sbin	etc	lib	home	root	dev	usr (these are sub-directories)
+
+*In home sub directory - users directory will be created called User-home directory.
+Eg. Shaik is the user in root account, "/home/shaik" is the User-home directory.
+
+* all users info and user directories, present in User-home directory.
+----------------------------------------------------------------------------------------
+/ VS root-sub-directory :
+	/ IS THE ROOT OF LINUX FILE SYSTEM.
+	root IS SUB-DIRECTORY PRESENT IN / and for root user's home directory.
+
+IF SHAIK IS LOGIN:
+SHAIK'S HOME DIRECTORY : /home/shaik
+root user's HOME DIRECTORY : /root
+----------------------------------------------------------------------------------------
+
